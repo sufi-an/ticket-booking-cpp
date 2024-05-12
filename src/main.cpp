@@ -1,5 +1,6 @@
-#include "ticket_booking/ticket_booking.hpp"
+#include "home/home.hpp"
+
 
 int main(){
-    Greet();
+    init_console();
 }
