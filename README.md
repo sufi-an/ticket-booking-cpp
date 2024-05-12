@@ -1,8 +1,9 @@
 
-##   Generating libraries
-    g++ -c tools.cpp 
-    ar rcs libtools.a tools.o 
-    
-g++ -c main.cpp
-g++ main.o -L . -ltools -o main
-./main
+
+# Ticket booking system
+
+## How to build
+    bash build.sh
+
+## How to run
+    bash run.sh
